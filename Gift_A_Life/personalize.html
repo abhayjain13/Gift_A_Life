@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <!-- Custom CSS -->
     <link href="css/navbar.css" rel="stylesheet">
-    <link href="css/form.css" rel="stylesheet">
+    <link href="css/personalize.css" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
     <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -69,46 +69,55 @@
     <!-- Header -->
     <div id="header" class="container">
         <div class="row">
-            <div class="col-6">
+            <div class="col-12">
                 <a href="#menu-toggle" id="menu-toggle"><i class="fa fa-align-justify fa-2x" aria-hidden="true"></i></a> 
             </div>
-            <div class="col-6" id="head-logo">
+            <div class="col-12" id="head-logo">
                 <img src="images/logo.png" class="img-fluid" style="height: 80px">
             </div> 
         </div>
     </div>
 
     <!-- Form -->
-    <div class="container">
+    <div class="container container-form">
         <div class="block">
-            <label id="label">USERNAME</label><br/>
-            <input type="text" id="input-box"><br/>
-            <label id="label">PASSWORD</label><br/>
-            <input type="text" id="input-box"><br/>
-            <input type="checkbox" id="check"><span id="check-text">Keep me Signed in</span><br/>
-            <input type="submit" value="SIGN IN" id="submit-box"><br/>
+            <div class="row">
+                <div id="block1" class="col-12">
+                    <img src="images/facebook.png" class="img-fluid social-img">
+                    <a href="#" class="img-text">Sign in with Facebook</a>
+                </div>
+                <div id="block2" class="col-12">
+                    <img src="images/twitter.png" class="img-fluid social-img">
+                    <a href="#" class="img-text">Sign in with Facebook</a>
+                </div>
+                <div id="block3" class="col-12">
+                    <img src="images/gmail.png" class="img-fluid social-img">
+                    <a href="#" class="img-text">Sign in with Facebook</a>
+                </div>
+            </div>
         </div>
+    </div>
+    <div class="container">
         <div class="row">
             <div class="col-4 content">
-                <a href="#" id="link">Create Account</a>
             </div>
            <div class="col-4" style="text-align:center; padding-top:7%; color:#fff;">
                 <span>or</span>
             </div>
             <div class="col-4 content">
-                <a href="#" id="link">Forgot Password</a>
             </div>
         </div>
+    </div>
+
+    <!-- Button -->
+    <div class="container">
         <div class="row">
-            <div class="col-4 social">
-                <a href="#" id="link"><img src="images/facebook.png" class="img-fluid social-img"></a>
+            <div class="col-6">
+                <button id="sign-btn">Sign in</button>
             </div>
-            <div class="col-4 social">
-                <a href="#" id="link"><img src="images/twitter.png" class="img-fluid social-img"></a>
-            </div>
-            <div class="col-4 social">
-                <a href="#" id="link"><img src="images/gmail.png" class="img-fluid social-img"></a>
-            </div>            
+            <div class="col-6">
+                <button id="register-btn">Register</button>
+            </div>     
         </div>
     </div>
 

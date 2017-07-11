@@ -1,0 +1,62 @@
+/* Card */
+.card{
+    padding: 0%;
+    margin: 2%;
+}
+.card-img-top{
+    width: 100%;
+}
+.card-block{
+    padding: 4% 1% 4% 1%;
+}
+/* Button */
+.add-link{
+    background: #ff4c08;
+    border: 0px;
+    border-radius: 20px;
+    color: #fff;
+    padding: 3% 5% 3% 5%;
+    float: left;
+}
+.buy-link{
+    background: #2daae1;
+    border: 0px;
+    border-radius: 20px;
+    color: #fff;
+    padding: 3% 6% 3% 6%;
+    float: left;
+    margin-left: 6%;
+}
+button:hover{
+    color: #bcbcbc;
+}
+/* Carousel Icon */
+.carousel-control-next-icon{
+    background-image:url("images/next.png");
+}
+.carousel-control-prev-icon{
+    background-image:url("images/prev.png");
+}
+/* Media Screen */
+@media only screen and (max-width: 768px) {
+    .card-text{
+        font-size: 15px;
+    }
+    .add-link, .buy-link{
+        margin-bottom: 2%;
+    }
+}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) {
+    .card-text{
+        font-size: 20px;
+    }
+}
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) { 
+    .card-text{
+        font-size: 25px;
+    }
+}
