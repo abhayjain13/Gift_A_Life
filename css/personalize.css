@@ -12,9 +12,6 @@ body {
    background-size:cover;
    background-attachment: fixed;;
 }
-i {
-    color: #fff;
-}
 a:hover{
     color: #bcbcbc;
     text-decoration: none;
@@ -39,6 +36,7 @@ a:hover{
 }
 .img-text{
     color: #fff;
+    line-height: 100px;
 }
 #block1{
     display: table-row;

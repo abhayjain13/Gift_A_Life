@@ -1,0 +1,48 @@
+/* Card */
+.card{
+    padding: 0%;
+    margin: 2%;
+}
+.card-img-top{
+    width: 100%;
+}
+.card-block{
+    padding: 4% 1% 4% 1%;
+}
+.amount{
+    color: #d9534f;
+    font-weight: bolder;
+}
+/* Button */
+.add-link{
+    background: #ff4c08;
+    border: 0px;
+    border-radius: 20px;
+    color: #fff;
+    padding: 3% 5% 3% 5%;
+    float: left;
+}
+.buy-link{
+    background: #2daae1;
+    border: 0px;
+    border-radius: 20px;
+    color: #fff;
+    padding: 3% 6% 3% 6%;
+    float: left;
+    margin-left: 6%;
+}
+.pay-link{
+    background: #2daae1;
+    border: 0px;
+    border-radius: 20px;
+    color: #fff;
+    padding: 3% 6% 3% 6%;
+    float: right;
+    margin-left: 6%;
+}
+button:hover{
+    color: #bcbcbc;
+}
+a:hover{
+    text-decoration: none;
+}

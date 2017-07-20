@@ -11,9 +11,6 @@
     background-size:cover;
     background-attachment: fixed;;
  }
-i {
-    color: #fff;
-}
 #header{
     padding: 5%;
 }
@@ -76,14 +73,13 @@ i {
 .social-img{
     height: 80%;
 }
-
 .footer{
     text-align: center;
     bottom: 0;
     padding: 20px;
     color: #fff;
 }
-
+/* Media Screen*/
 @media only screen and (max-width: 768px) {
     body {
         font-size: 15px;
