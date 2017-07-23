@@ -13,6 +13,9 @@
     color: #d9534f;
     font-weight: bolder;
 }
+.card-name{
+    font-weight: bold;
+}
 /* Button */
 .add-link{
     background: #ff4c08;
@@ -45,4 +48,48 @@ button:hover{
 }
 a:hover{
     text-decoration: none;
+}
+.social-link{
+    margin-left: 12%;
+}
+/* Media Screen */
+@media only screen and (max-width: 768px) {
+    .card-name{
+        font-size: 12px;
+    }
+    .card-designation{
+        font-size: 8px;
+        margin-bottom: 0px;
+    }
+    .social-link{
+        font-size: 12px;
+    }
+}
+ 
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) {
+    .card-name{
+        font-size: 18px;
+    }
+    .card-designation{
+        font-size: 12px;
+    }
+    .social-link{
+        font-size: 18px;
+    }
+}
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) { 
+    .card-name{
+        font-size: 25px;
+    }
+    .card-designation{
+        font-size: 16px;
+    }
+    .social-link{
+        font-size: 18px;
+    }
 }
