@@ -1,0 +1,183 @@
+ /* Document Details */
+ html{
+     height: 100%;
+     width:100%; 
+ }
+ body {
+    width: 100%;
+    max-height: 100%;
+    font-family: 'Nexa Light', sans-serif;
+    background-image: url("../images/login-back.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;;
+ }
+/* Header */
+#header{
+    padding: 5%;
+}
+#head-logo{
+    text-align: right;
+}
+/* Form */
+.block{
+    text-align: left;
+    padding-left: 10%;
+}
+.pic{
+    background: rgba(255,255,255,0.1);;
+    border-radius: 78px;
+    text-align: center;
+    width: 8%;
+    padding: 2%;
+}
+#label{
+    color: #fff;
+    font-weight: bold;
+    margin: 2%;
+}
+#input-box{
+    background-color: rgba(255,255,255, 0.3);
+    width: 80%;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 40px;
+    border: 0px;
+    padding: 1%;
+    padding-left: 2%;
+}
+#check{
+    margin: 2%;
+}
+#check-text{
+    color: #fff;
+    font-weight: bold;
+    margin: 2%;
+    padding: 2%
+}
+#submit-box{
+    background-color: #2daae1;
+    width: 80%;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 40px;
+    border: 0px;
+    padding: 1%;
+}
+#continue-box{
+    background-color: #2daae1;
+    width: 80%;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 40px;
+    border: 0px;
+    padding: 1%;
+    margin-top: 5%; 
+}
+/* Underline */
+.content{
+    text-align: center;
+    border-bottom: 1px solid rgba(255,255,255, 0.3);
+    border-bottom-width: 10%;
+    padding: 4%;
+    padding-bottom: 2%;
+}
+/* Social Links */
+#link{
+    color: #989898;
+    text-decoration: none;
+    font-weight: bold;
+}
+.social{
+    text-align: center;
+    padding: 5% 3% 3% 3%;
+}
+.social-img{
+    height: 80%;
+}
+/* Footer */
+.footer{
+    text-align: center;
+    bottom: 0;
+    padding: 20px;
+    color: #fff;
+}
+a{
+    color: #fff;
+}
+a:hover{
+    color: #bcbcbc;
+    text-decoration: none;
+}
+/* Media Screen */
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 15px;
+    }
+    .pic{
+        padding: 1%;
+        margin-left: 39%;
+        border-radius: 20px;
+        width: 16%;
+    }
+    #input-box{
+        width: 90%;
+    }
+    #submit-box{
+        width: 90%;
+    }   
+    #continue-box{
+        margin-top: 8%;
+        width: 90%;
+    }     
+    #check-text{
+        font-size: 12px;
+        margin: 0%;
+        padding: 0%;
+    }
+    .social-img{
+        height: 50%;
+    }
+    .footer{
+        font-size: 14px;
+    }
+}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) {
+    body {
+        font-size:20px;
+    }   
+    .pic{
+        padding: 1%;
+        margin-left: 37%;
+    }
+    #check-text{
+        font-size: 15px;
+        margin: 0%;
+        padding: 0%;
+    }   
+    .social-img{
+        height: 80%;
+    }
+    #continue-box{
+        margin-top: 7%;
+        width: 80%;
+    } 
+    .footer{
+        font-size: 19px;
+    }
+}
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) { 
+    body {
+        font-size: 20px;
+    }
+    #header{
+        padding: 2%;
+    }
+    .pic{
+        margin-left: 37%;
+    }
+}
